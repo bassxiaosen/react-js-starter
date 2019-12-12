@@ -1,0 +1,40 @@
+@font-face {font-family: "iconfont";
+  src: url('./font/iconfont.eot?t=1571218434173'); /* IE9 */
+  src: url('./font/iconfont.eot?t=1571218434173#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQIAAsAAAAACDAAAAO8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqEPINlATYCJAMICwYABCAFhG0HLxsKByMRNmtP0pL9c8Bth8nxmqbQ8Jv3yvNidk0pfDHpT1amDxoNM/iLlJmZN4Jqv8+e3X3/9oBBnj9OHKCKDqsIjypRjnwqQqU8W2Dh3uKcA9cbE6FG8h5IoS+kOMxyGrLLaJwxGxDvvSq0u0X9RamoSgD8zzHT5fOB5QeaS2VSJe0NcJRAA4qMK8GjAMUbxm6iPIjDBHos2BOn++sjqwowKhAPgpNZTSmUGlyo4k7JwiJeaNT0LD1lnvO/j19dKJE0GUi4dGtnssNv/TAqwy18kyIwx9NBW0bGHgpxrdRwQQ4De7Iex1Cs1OcWwbf+9pMyVvuPRxAdQNAnYucY58TErFMVJPrzgiG84V+vVIZCeVNNVxFsX/t6+vq6b4vht42nkpMeNBwVjmBiHMMQIZYiIiSFUdIJDZ5WbQSzrvPOKH8fx0NcjONx06jwhnwRcYqrNkJLblsNASuYxyruudvov4y6L4nfxHzLb3BVuOAx3ei4JN4JGLXsXxaPWOwG9i2BefeZBrtV0YDJtv+Q2UBWr2ojGn4UdUXEcEiCg3HvNSsMyzxCHBYwcE06D58TTWERMy6nhFsKioANn01fFIWRz1+XpJ9O4WRNa8t0pthIH2j94HlUekZFCFRKDampTH0gNkpnJqezKjrUhhqHsyM9fX2sZFe4cWht5WWsP+2jylk6jIIXQu4D281Mk7hG4KaJyrjOVBlZbOOWidKiW2Vl4hQnoa7r5cXVRQkcAEuGOVPQ5tv2ssPo2xboLnvXwQ7Yv61j7zt23Q223nZqzKc1zVluD7mElwIdhnLWOt9SEMrQf1mYf2HohV0h7SuqUX6bcqYOI3/W7tofUflUoysLqzzCS37Tjpk6v+XnF+Tp+oLQCDRc6hDt//I8m33gQTO1HiFZM+wFpW7+ec2H56bgtvZ/ydqZqI/BGHxOZsuy4rKBMhWbWRpJ3gw9Jl4PdNMClhFf+5rGiXWh6kwRki7zkFVryILdg0avfeioDqDHrvPLe416KIvSjR2PBAhDXkIy4B1kQ94jC/YLNCb8gY6hkIUeN0J3w14bcSkIAqFkNKD+EPQ0WqRmEcTe0L17SUk2x7+Q1uCGtmqy4QOOSGNMWT+uY7ZgaRpgLxyHfT/BTFNEzZVnnrd1bcu+qNLTkImMQCgZDag/BD2NllZnkfv9G7p3L6mmpEP5QlpD+9BWTQvkQTC2KrmWZ9aP65gtWJoG2As67GFggrm8X0TNle/hm7e1VMm2FVTzi4an2wI9GZCmHPbI5G8oNWcZ') format('woff2'),
+  url('./font/iconfont.woff?t=1571218434173') format('woff'),
+  url('./font/iconfont.ttf?t=1571218434173') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('./font/iconfont.svg?t=1571218434173#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  // font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconReact:before {
+  content: "\e799";
+}
+
+.App {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  .text {
+    font-size: 20px;
+    color: lightseagreen;
+  }
+  .background {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    // top: -124px;
+    z-index: -1;
+  }
+}
